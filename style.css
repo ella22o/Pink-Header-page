@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Nunito+Sans:ital,wght@0,400;0,700;0,800;1,300;1,700&family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: sans-serif;
+    font-family:'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+.showcase{
+    height: 150vh;
+    width: 100%;
+    background: linear-gradient(rgba(248, 5, 119, 0.6), rgba(248, 5, 119, 0.6)) , url("./pink-smoke-effect-white-wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: #D8BFD8;
+    padding: 3rem;
+}
+.menu-items{
+    display: flex;
+    font-size: 2.5rem;
+    /* font-weight: bold; */
+}
+.menu-items li{
+    list-style: none;
+    padding-left: 3rem;
+}
+.menu-items a{
+    text-decoration: none;
+    color: 	#D8BFD8;
+}
+.logo{
+    font-size: 3.5rem;
+}
+/*  */
+.about{
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lg-heading{
+    font-size: 3rem;
+    color: #D8BFD8;
+}
+p{
+    font-size: 1.8rem;
+    color: #D8BFD8;
+}
+.about-text a{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px 20px;
+    background: #ADD8E6;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: rgb(154, 98, 129);
+    text-decoration: none;
+    font-size: 2rem;
+}
+.about-img{
+    flex: 1 1 400px;
+    padding: 30px;
+}
+.about-text{
+    flex: 1 1 400px;
+    padding: 30px;
+    margin: auto;
+}
+.about-img img{
+    display: block;
+    height: 400px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: center;
+}
